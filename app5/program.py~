@@ -43,7 +43,7 @@ def get_weather_from_html(html):
 	temp = cleanup_text(temp)
 	scale = cleanup_text(scale)
 
-	report = WeatherReport(cond=condition, temp=temp, scale=scale, loc=loc)
+	report = WeatherReport(cond=condtion, temp=temp, scale=scale, loc=loc)
 	return report
 
 
